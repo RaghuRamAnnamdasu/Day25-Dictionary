@@ -1,0 +1,54 @@
+.dict{
+    padding : 20px;
+    background-color: yellowgreen;
+    border : 1px solid green;
+    height : 100vh;
+}
+.searchEnclosure {
+    row-gap: 16px;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.searchText{
+    height: 45px;
+    border-radius: 6px;
+    box-shadow: 8px 10px 26px rgb(118, 162, 118);
+    border: 0px;
+    padding-left: 8px;
+}
+.searchBox {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 75px 75px;
+    column-gap: 12px;
+    align-items: center;
+}
+.button {
+   color: white !important;
+   border: 1px solid white !important;
+   padding: 0 8px !important;
+   font-size: 14px !important;
+   width: 75px;
+   height: 30px;
+}
+.meaningBody{
+    background-color: white;
+    margin-top: 26px;
+    padding: 20px;
+    overflow: auto;
+    height: 80%;
+}
+.cat{
+    padding: 10px 20px;
+}
+.partsOfSpeech{
+    font-weight:bolder;
+    font-size: 20px;
+    text-transform: capitalize;
+}
